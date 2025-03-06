@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   50% {
     -webkit-transform: scaleX(1.5);
-            transform: scaleX(1.5); /* Немного "перекатываем" волну */
+            transform: scaleX(1.5);
   }
   100% {
     -webkit-transform: scaleX(1);
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   50% {
     -webkit-transform: scaleX(1.5);
-            transform: scaleX(1.5); /* Немного "перекатываем" волну */
+            transform: scaleX(1.5);
   }
   100% {
     -webkit-transform: scaleX(1);
@@ -794,7 +794,6 @@ body {
   margin: 0 0 0 1.25rem;
   line-height: 1.1875rem;
   letter-spacing: 0.0313rem;
-  overflow: hidden;
 }
 .about-us__info {
   font-size: 0.875rem;
