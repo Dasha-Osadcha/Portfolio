@@ -175,39 +175,6 @@ body {
   text-transform: uppercase;
 }
 
-.hover-underline {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-}
-
-.hover-underline::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
-  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
-  bottom: -5px;
-  left: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
-}
-
-.hover-underline:hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-animation: wave 0.6s ease-out;
-          animation: wave 0.6s ease-out;
-}
-
 .main {
   position: absolute;
   width: 100%;
@@ -438,7 +405,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .home__promo p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -478,7 +444,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .product-text p._anime {
@@ -492,7 +457,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .product-text span._anime {
@@ -504,8 +468,36 @@ body {
 .product-text a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #d82775;
   --underline-end: #fefbb9;
+}
+.product-text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.product-text a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 
 @media (max-width: 900px) {
@@ -609,7 +601,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .candles__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -623,7 +614,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .candles__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -634,8 +624,36 @@ body {
 .candles__text a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #438369;
   --underline-end: #e0d8d8;
+}
+.candles__text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.candles__text a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .candles__item {
   -webkit-box-flex: 0;
@@ -668,7 +686,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .candles__promo p._anime {
@@ -727,7 +744,6 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
-    overflow: hidden;
     font-size: 1.2rem;
   }
   .candles__promo p._anime {
@@ -760,8 +776,36 @@ body {
 .product__link a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #75a4f5;
   --underline-end: #e2db7a;
+}
+.product__link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.product__link a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 
 @media (max-width: 900px) {
@@ -822,8 +866,36 @@ body {
 .about-us__link a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #b80346;
   --underline-end: #f2ecda;
+}
+.about-us__link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.about-us__link a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .about-us .inform-content {
   width: 16rem;
@@ -914,7 +986,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .modern__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -928,7 +999,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .modern__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -939,8 +1009,36 @@ body {
 .modern__text a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #61a65b;
   --underline-end: #eeb682;
+}
+.modern__text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.modern__text a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .modern__item {
   -webkit-box-flex: 0;
@@ -973,7 +1071,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .modern__promo p._anime {
@@ -1032,7 +1129,6 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
-    overflow: hidden;
     font-size: 1.2rem;
   }
   .modern__promo p._anime {
@@ -1066,7 +1162,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .room-mist__inform._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1077,8 +1172,36 @@ body {
 .room-mist__link a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #e78214;
   --underline-end: #494cbf;
+}
+.room-mist__link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.room-mist__link a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .room-mist .rmc {
   display: -webkit-box;
@@ -1140,7 +1263,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .hand-wash__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1154,7 +1276,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .hand-wash__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1165,8 +1286,36 @@ body {
 .hand-wash__text a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #e4d325;
   --underline-end: #494cbf;
+}
+.hand-wash__text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.hand-wash__text a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .hand-wash__item {
   -webkit-box-flex: 0;
@@ -1199,7 +1348,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .hand-wash__promo p._anime {
@@ -1258,7 +1406,6 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
-    overflow: hidden;
     font-size: 1.2rem;
   }
   .hand-wash__promo p._anime {
@@ -1317,7 +1464,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .industry__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1331,7 +1477,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .industry__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1342,8 +1487,36 @@ body {
 .industry__text a {
   font-size: 0.875rem;
   text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   --underline-start: #61a65b;
   --underline-end: #eeb682;
+}
+.industry__text a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--underline-start, #000)), to(var(--underline-end, #00f)));
+  background: linear-gradient(to right, var(--underline-start, #000), var(--underline-end, #00f));
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+.industry__text a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-animation: wave 0.6s ease-out;
+          animation: wave 0.6s ease-out;
 }
 .industry__item {
   -webkit-box-flex: 0;
@@ -1375,7 +1548,6 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: hidden;
   display: block;
 }
 .industry__promo p._anime {
@@ -1434,7 +1606,6 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
-    overflow: hidden;
   }
   .industry__promo p._anime {
     -webkit-transform: translate(0px, 0px);
@@ -1458,7 +1629,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
 }
 .footer__title h5._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1472,7 +1642,6 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
