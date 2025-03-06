@@ -221,6 +221,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 
 .header {
@@ -290,7 +291,6 @@ body {
   padding: 1.5625rem;
   -webkit-transition: right 0.8s ease 0s;
   transition: right 0.8s ease 0s;
-  overflow: hidden;
 }
 .menu__body._active {
   right: 0;
@@ -299,6 +299,15 @@ body {
 @media (max-width: 900px) {
   .menu__body._active {
     width: 40%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1180px) {
+  .menu__body {
+    height: 85%;
+  }
+  .menu__body._active {
+    width: 33%;
+    height: 85%;
   }
 }
 .menu__list {
@@ -429,6 +438,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .home__promo p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -468,6 +478,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .product-text p._anime {
@@ -481,6 +492,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .product-text span._anime {
@@ -505,7 +517,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .home__item {
     -webkit-box-orient: vertical;
@@ -534,6 +545,9 @@ body {
   }
   .product-text {
     margin: 0rem 2.3rem 1.3rem 1.3rem;
+  }
+  .product-text p {
+    margin: 0 0 1.25rem 0;
   }
   .menu__link {
     margin: 0rem 0rem 2.25rem 0rem;
@@ -595,6 +609,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .candles__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -608,6 +623,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .candles__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -652,6 +668,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .candles__promo p._anime {
@@ -667,7 +684,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .candles__inform {
     -webkit-box-flex: 0;
@@ -711,6 +727,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    overflow: hidden;
     font-size: 1.2rem;
   }
   .candles__promo p._anime {
@@ -753,7 +770,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .product__item {
     -webkit-box-flex: 1;
@@ -831,7 +847,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .about-us__img {
     -webkit-box-flex: 0;
@@ -899,6 +914,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .modern__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -912,6 +928,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .modern__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -956,6 +973,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .modern__promo p._anime {
@@ -971,7 +989,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .modern__inform {
     -webkit-box-flex: 0;
@@ -1015,6 +1032,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    overflow: hidden;
     font-size: 1.2rem;
   }
   .modern__promo p._anime {
@@ -1048,6 +1066,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .room-mist__inform._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1068,9 +1087,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  .room-mist__container {
-    overflow: hidden;
-  }
   .room-mist__inform {
     width: 35%;
   }
@@ -1124,6 +1140,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .hand-wash__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1137,6 +1154,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .hand-wash__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1181,6 +1199,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .hand-wash__promo p._anime {
@@ -1196,7 +1215,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .hand-wash__inform {
     -webkit-box-flex: 0;
@@ -1240,6 +1258,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    overflow: hidden;
     font-size: 1.2rem;
   }
   .hand-wash__promo p._anime {
@@ -1298,6 +1317,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .industry__text p._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1311,6 +1331,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .industry__text span._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1354,6 +1375,7 @@ body {
           transform: translate(150%, 0px);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  overflow: hidden;
   display: block;
 }
 .industry__promo p._anime {
@@ -1369,7 +1391,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    overflow: hidden;
   }
   .industry__inform {
     -webkit-box-flex: 0;
@@ -1413,6 +1434,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    overflow: hidden;
   }
   .industry__promo p._anime {
     -webkit-transform: translate(0px, 0px);
@@ -1436,6 +1458,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
 }
 .footer__title h5._anime {
   -webkit-transform: translate(0px, 0px);
@@ -1449,6 +1472,7 @@ body {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: block;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
