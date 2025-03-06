@@ -711,6 +711,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    font-size: 1.2rem;
   }
   .candles__promo p._anime {
     -webkit-transform: translate(0px, 0px);
@@ -1014,6 +1015,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    font-size: 1.2rem;
   }
   .modern__promo p._anime {
     -webkit-transform: translate(0px, 0px);
@@ -1227,7 +1229,7 @@ body {
     position: relative;
   }
   .hand-wash__promo {
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     margin: 1.3rem 0rem 1.3rem 1.3rem;
     position: absolute;
     color: #E7F066;
@@ -1238,6 +1240,7 @@ body {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     display: block;
+    font-size: 1.2rem;
   }
   .hand-wash__promo p._anime {
     -webkit-transform: translate(0px, 0px);
@@ -1399,7 +1402,7 @@ body {
     position: relative;
   }
   .industry__promo {
-    font-size: 2.2rem;
+    font-size: 1.2rem;
     margin: 1.3rem 0rem 1.3rem 1.3rem;
     position: absolute;
     color: #B04836;
