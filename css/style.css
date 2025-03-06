@@ -140,34 +140,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-.rght-text {
-  -webkit-transform: translate(150%, 0px);
-          transform: translate(150%, 0px);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  display: block;
-}
-.rght-text._anime {
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
-  -webkit-transition: all 0.8s ease 0.3s;
-  transition: all 0.8s ease 0.3s;
-}
-
-.lft-text {
-  -webkit-transform: translate(-150%, 0px);
-          transform: translate(-150%, 0px);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  display: block;
-}
-.lft-text._anime {
-  -webkit-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
-  -webkit-transition: all 0.8s ease 0.3s;
-  transition: all 0.8s ease 0.3s;
-}
-
 body {
   font-size: 1rem;
   font-family: "Roboto", serif;
@@ -451,6 +423,19 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+.home__promo p {
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.home__promo p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
 .home__inform {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -479,6 +464,30 @@ body {
 }
 .product-text p {
   margin: 0rem 0rem 1.25rem 0rem;
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.product-text p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+.product-text span {
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.product-text span._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .product-text a {
   font-size: 0.875rem;
@@ -580,6 +589,30 @@ body {
 }
 .candles__text p {
   margin: 0rem 0rem 1.25rem 0rem;
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.candles__text p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+.candles__text span {
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.candles__text span._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .candles__text a {
   font-size: 0.875rem;
@@ -614,6 +647,17 @@ body {
 }
 .candles__promo p {
   text-align: right;
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.candles__promo p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 
 @media (max-width: 900px) {
@@ -658,6 +702,19 @@ body {
     font-size: 2.2rem;
     margin: 1.3rem 0 1.3rem 1.3rem;
     position: absolute;
+  }
+  .candles__promo p {
+    -webkit-transform: translate(-150%, 0px);
+            transform: translate(-150%, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: block;
+  }
+  .candles__promo p._anime {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transition: all 0.8s ease 0.3s;
+    transition: all 0.8s ease 0.3s;
   }
 }
 .products__container {
@@ -750,7 +807,7 @@ body {
   --underline-end: #f2ecda;
 }
 .about-us .inform-content {
-  margin: 0 16rem 0 0;
+  width: 16rem;
   display: block;
   -webkit-transform: translate(100vw, 0);
           transform: translate(100vw, 0);
@@ -833,6 +890,30 @@ body {
 }
 .modern__text p {
   margin: 0rem 0rem 1.25rem 0rem;
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.modern__text p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+.modern__text span {
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.modern__text span._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .modern__text a {
   font-size: 0.875rem;
@@ -867,6 +948,17 @@ body {
 }
 .modern__promo p {
   text-align: right;
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.modern__promo p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 
 @media (max-width: 900px) {
@@ -912,6 +1004,19 @@ body {
     position: absolute;
     color: #A26779;
   }
+  .modern__promo p {
+    -webkit-transform: translate(-150%, 0px);
+            transform: translate(-150%, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: block;
+  }
+  .modern__promo p._anime {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transition: all 0.8s ease 0.3s;
+    transition: all 0.8s ease 0.3s;
+  }
 }
 .room-mist__container {
   min-height: 100vh;
@@ -932,6 +1037,17 @@ body {
   position: absolute;
   top: 7.5rem;
   left: 2.5rem;
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.room-mist__inform._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .room-mist__link a {
   font-size: 0.875rem;
@@ -994,6 +1110,17 @@ body {
 }
 .hand-wash__text p {
   margin: 0rem 0rem 1.25rem 0rem;
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.hand-wash__text p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .hand-wash__text a {
   font-size: 0.875rem;
@@ -1028,6 +1155,17 @@ body {
 }
 .hand-wash__promo p {
   text-align: right;
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.hand-wash__promo p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 
 @media (max-width: 900px) {
@@ -1072,6 +1210,19 @@ body {
     margin: 1.3rem 0rem 1.3rem 1.3rem;
     position: absolute;
     color: #E7F066;
+  }
+  .hand-wash__promo p {
+    -webkit-transform: translate(-150%, 0px);
+            transform: translate(-150%, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: block;
+  }
+  .hand-wash__promo p._anime {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transition: all 0.8s ease 0.3s;
+    transition: all 0.8s ease 0.3s;
   }
 }
 .industry {
@@ -1118,6 +1269,17 @@ body {
 }
 .industry__text p {
   margin: 0rem 0rem 1.25rem 0rem;
+  -webkit-transform: translate(-150%, 0px);
+          transform: translate(-150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.industry__text p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 .industry__text a {
   font-size: 0.875rem;
@@ -1151,6 +1313,17 @@ body {
 }
 .industry__promo p {
   text-align: right;
+  -webkit-transform: translate(150%, 0px);
+          transform: translate(150%, 0px);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+}
+.industry__promo p._anime {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  -webkit-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
 }
 
 @media (max-width: 900px) {
@@ -1195,6 +1368,19 @@ body {
     margin: 1.3rem 0rem 1.3rem 1.3rem;
     position: absolute;
     color: #B04836;
+  }
+  .industry__promo p {
+    -webkit-transform: translate(-150%, 0px);
+            transform: translate(-150%, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: block;
+  }
+  .industry__promo p._anime {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    -webkit-transition: all 0.8s ease 0.3s;
+    transition: all 0.8s ease 0.3s;
   }
 }
 .footer {
