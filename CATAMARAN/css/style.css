@@ -307,21 +307,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 @font-face {
   font-family: "Futura Now Headline";
-  src: url("fonts/FuturaNowHeadline.woff2") format("woff2"), url("fonts/FuturaNowHeadline.woff") format("woff");
+  src: url("../fonts/FuturaNowHeadline.woff2") format("woff2"), url("../fonts/FuturaNowHeadline.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura Now Headline";
-  src: url("fonts/FuturaNowHeadline-Bold.woff2") format("woff2"), url("fonts/FuturaNowHeadline-Bold.woff") format("woff");
+  src: url("../fonts/FuturaNowHeadline-Bold.woff2") format("woff2"), url("../fonts/FuturaNowHeadline-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Futura Now Headline";
-  src: url("fonts/FuturaNowHeadline-XBold.woff2") format("woff2"), url("fonts/FuturaNowHeadline-XBold.woff") format("woff");
+  src: url("../fonts/FuturaNowHeadline-XBold.woff2") format("woff2"), url("../fonts/FuturaNowHeadline-XBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
