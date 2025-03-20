@@ -306,26 +306,167 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @font-face {
-  font-family: "Futura Now Headline";
-  src: url("../fonts/FuturaNowHeadline.woff2") format("woff2"), url("../fonts/FuturaNowHeadline.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: "Futura Now Headline";
-  src: url("../fonts/FuturaNowHeadline-Bold.woff2") format("woff2"), url("../fonts/FuturaNowHeadline-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-XBdIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: "Futura Now Headline";
-  src: url("../fonts/FuturaNowHeadline-XBold.woff2") format("woff2"), url("../fonts/FuturaNowHeadline-XBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-XBold.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline ExtraBlack';
+    src: url('../fonts/FuturaNowHeadline-XBlkIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-XBlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Medium.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Light.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-BlkIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-BlkIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Italic.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline ExtraBlack';
+    src: url('../fonts/FuturaNowHeadline-XBlack.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-XBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-ExtraLight.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-LtIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-ExtraLightIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-ExtraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-BoldIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Black.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-ThinIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-Thin.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline-MdIt.woff2') format('woff2'),
+        url('../fonts/FuturaNowHeadline-MdIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
 .container {
   max-width: 1270px;
   padding: 0px 15px;
